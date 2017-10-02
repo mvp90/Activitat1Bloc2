@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.miguel.activitat1bloc2.Main2Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="354dp"
+        android:layout_height="50dp"
+        android:text="Hola <   > indican´s les següents dades:"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edat:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="238dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Introduixca ací la seua edat"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="107dp"
+        android:layout_height="61dp"
+        android:background="@color/colorPrimary"
+        android:text="Continuar"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="186dp" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorControlHighlight"
+    tools:context="com.example.miguel.activitat1bloc2.MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Escribe tu nombre Aquí"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SEXE:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="120dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOM:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mascle"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Femella"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="139dp"
+        android:layout_height="54dp"
+        android:background="@color/colorPrimary"
+        android:text="Enviar Datos"
+        android:textColor="@android:color/background_light"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <AutoCompleteTextView
+        android:layout_width="318dp"
+        android:layout_height="166dp"
+        android:layout_marginBottom="16dp"
+        android:text="Açí mostrarem les dades quan tornen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="33dp" />
+
+</android.support.constraint.ConstraintLayout>
